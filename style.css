@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_nav {
+    margin: 2% 0;
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
+}
+
+.heder_collekt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.heder_botton1 {
+    background: #FF7143;
+    width: 211px;
+    height: 60px;
+    gap: 0px;
+    color: #E7E7E7;
+    opacity: 0px;
+    border-radius: 6px;
+    border: none;
+}
+
+.hederulm {
+    text-decoration: underline;
+}
+
+#bars {
+    display: none;
+}
+
+.bisnes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bines_main {
+    width: 85%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bisnes_l {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bisnes_r {
+    width: 50%;
+
+}
+
+.bisnes_ {
+    font-family: DMSans;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.5010533332824707px;
+    text-align: left;
+
+}
+
+.bisnes_w {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    text-align: left;
+    width: 65%;
+}
+
+.hero {
+    width: 100%;
+}
+
+.button {
+    background: #5454D4;
+    width: 211px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 6px;
+    border: none;
+    color: #E7E7E7;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.divv {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #E7E7E7;
+}
+
+.logo {
+    margin: 5% 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_main {
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.logos {
+    margin: 5% 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos_main {
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.matin_h1 {
+    font-family: DMSans;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.563158392906189px;
+    text-align: left;
+
+}
+
+.PIM {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    text-align: left;
+
+}
+
+.rasm {
+    width: 35%;
+    height: auto;
+}
+
+.rassom {
+    width: 100%;
+}
+
+.matin {
+    width: 50%;
+    height: auto;
+}
+
+.PIM {
+    margin: 5% 0px;
+    width: 50%;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_main {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pm {
+    width: 70%;
+}
+
+.yozuv {
+    font-family: DMSans;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.563158392906189px;
+    text-align: left;
+}
+
+.yozuv1 {
+    margin: 3% 0px;
+    width: 45%;
+}
+
+.pienjilar {
+    width: 50%;
+}
+
+.pnj {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.yozuvu {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    text-align: left;
+    width: 60%;
+
+}
+
+.card {
+    margin: 5% 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vard_main {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards34 {
+    width: 20%;
+    text-align: center;
+}
+
+.ppp {
+    font-size: 15px;
+}
+
+.cad {
+    width: 100%;
+}
+
+.futr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.futr_main {
+    width: 90%;
+}
+
+.futr_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button12 {
+    width: 330px;
+    background: #F7F7FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 65px;
+
+}
+
+.futr_text {
+    font-family: DMSans;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.875789999961853px;
+    text-align: left;
+    width: 35%;
+}
+
+.btn {
+    width: 160px;
+    height: 55px;
+    top: 5px;
+    left: 8px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 0px;
+    background: #5454D4;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn1 {
+    width: 160px;
+    height: 55px;
+    top: 5px;
+    left: 8px;
+    gap: 0px;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 0px;
+    border: none;
+    font-weight: 600;
+    background-color: #F7F7FB;
+}
+
+.futfr_bottom {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1:hover {
+    background-color: #FF7143;
+    color: #F7F7FB;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.card1:hover .cardq {
+    background: #9F3919;
+    color: white;
+
+}
+
+.card1:hover .crad_h3 {
+    color: #F7F7FB;
+}
+
+
+.card2:hover {
+    background-color: #FF7143;
+    color: #F7F7FB;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.card2:hover .cardq {
+    background: #9F3919;
+    color: white;
+
+}
+
+.card2:hover .crad_h3 {
+    color: #F7F7FB;
+}
+
+.card3:hover {
+    background-color: #FF7143;
+    color: #F7F7FB;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.card3:hover .cardq {
+    background: #9F3919;
+    color: white;
+
+}
+
+.card3:hover .crad_h3 {
+    color: #F7F7FB;
+}
+
+.card1 {
+    width: 30%;
+    background: #F8F8F8;
+    background: #F8F8F8;
+
+    padding: 2% 0px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.card2 {
+    width: 30%;
+    background: #F8F8F8;
+
+    padding: 2% 0px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.card3 {
+    width: 30%;
+    background: #F8F8F8;
+
+    padding: 2% 0px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.crad_h3 {
+    font-family: DMSans;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.card_h1 {
+    font-family: DMSans;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.034482717514038px;
+    text-align: center;
+
+}
+
+.card_p {
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+
+}
+
+.cardq {
+    width: 285px;
+    height: 60px;
+    top: 354px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .cardq {
+        width: 80%;
+    }
+
+    .futr_text {
+        width: 50%;
+    }
+
+    .bisnes_ {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: -100px;
+    }
+
+    .bisnes_w {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .matin_h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .logo_main {
+        flex-direction: row;
+    }
+}
+
+.PIM {
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .heder_botton1 {
+        width: 150px;
+    }
+
+    .futr_text {
+        width: 45%;
+        font-size: 50px;
+    }
+
+    .futr_text {
+        width: 60%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .bisnes_l {
+        width: 100%;
+    }
+
+    .main_ma {
+        width: 100%;
+    }
+
+    .cards34 {
+        width: 100%;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .card3 {
+        width: 100%;
+    }
+
+    .vard_main {
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+    }
+
+    .car {
+        font-size: 20px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .ppp {
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .futr_top {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .futr_text {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .logos_main {
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1f);
+    }
+
+    .logos_main {
+        text-align: center;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .bines_main {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heder_collekt {
+        display: none;
+    }
+
+    .banner_main {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+
+    .PIM {
+        line-height: 20px;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .matin_h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .yozuv {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .yozuvu {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .heder_botton1 {
+        display: none;
+    }
+
+    .divv {
+        width: 100px;
+        height: 50px;
+    }
+
+    .bisnes_ {
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .bisnes_w {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card1 {
+        display: none;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+    .cardq {
+        width: 80%;
+    }
+
+    .card2 {
+
+        width: 60%;
+    }
+
+    .futfr_bottom {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (maw-width: 750px) {}
+
+@media(max-width: 400px) {
+    .bisnes_l {
+        margin-bottom: 150px;
+    }
+
+    .button12 {
+        width: 80%;
+        height: 50px;
+    }
+}
